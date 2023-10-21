@@ -405,58 +405,81 @@
                                 <p class="subscribe">Subscribe</p>
                                 <label class="label-with-label">
                                     <input type="text" name="text" placeholder="e-mail" />
-                                    <button type="button" class="sub-button">Subscribe<svg class="paper-plane" width="20" height="24">
+                                <svg class="paper-plane" width="20" height="24">
                                             <use href="./images/icons.svg#icon-icon-send-1"></use>
                                         </svg>
-                                    </button>
                                 </label>
+                                <button type="button" class="sub-button">Subscribe</button>
                             </form>
                         </li>
                     </ul>
                 </div>  
             </div>
-          
     </footer>
+
     <div class="modal is-hidden" data-modal>
         <div class="modal-two">
+        <p class="leave">Leave your contacts and we will call you back</p>
+            <form class="sign-up-form">
+                    <div class="consumer-data">
+                        <label for="user-name" class="name-phone-email">
+                        Name
+                        <div class="input-setings">
+                        <input id="user-name"  name="user-name"  type="text" class="setiing-forcustomer"/>
+                        <svg class="personal-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+                        </svg>
+                        </div>
+                        </label>
+                        </div>
+                        
+                    <div class="consumer-data">
+                        <label for="user-name" class="name-phone-email">
+                        Phone
+                        <div class="input-setings">
+                        <input id="user-name"  name="user-name"  type="text" class="setiing-forcustomer"  />
+                        <svg class="personal-svg" width="18" height="24">
+                        <use href="./images/icons.svg#icon-telephone-icon-1"></use>
+                        </svg>
+                        </label>
+                        </div>
+                    
+
+                    <label class="name-phone-email">
+                        Email
+                        <input type="text" name="email" />
+                    </label>
+
+                    <label class="name-phone-email">
+                        Comment
+                        <textarea name="text" rows="5" placeholder="text input"></textarea>
+                    </label>
+                
+
+                    <div class="choise">
+                    <label>
+                         <input id="user-privacy" type="checkbox"  value="true" name="user-privacy"/>I accept the terms and conditions of the <span
+                            class="decoration">Privacy Policy</span>
+                    </label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                    </div>
+                </form>
+                
+
+
+
+
             <button type="button" class="close circle" data-modal-close>
                 <svg class="cross" width="8" height="8">
                 <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
             </button>
-            <div class="your-contacts">
-                <p class="leave">
-                <form name="signup_form" autocomplete="on" novalidate>
-                    <label class="name-phone-email">
-                        Name
-                        <input type="name" name="name" />
-                        <svg class="personal-svg" width="8" height="8">
-                            <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
-                        </svg>
-                    </label>
-            
-                    <label class="name-phone-email">
-                        phone
-                        <input type="phone" name="phone" />
-                    </label>
-                    <label class="name-phone-email">
-                        Email
-                        <input type="email" name="email" />
-                    </label>
-                    <label class="name-phone-email">
-                        Comment
-                        <textarea name="comment" rows="5" placeholder="text input"></textarea>
-                    </label>
-                    <div class="choise" <label>
-                        <input type="checkbox" name="I accept" valuer="accpet" />I accept the terms and conditions of the <span
-                            class="decoration">Privacy Policy</span>
-                        </lable>
-                    </div>
-                    <button type="submit">Submit</button>
-                </form>
             </div>
         </div>
-    </div>
+        
+    
     <script src="./js/modal.js"></script>
     </body>
     </html>
