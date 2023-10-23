@@ -723,9 +723,7 @@ text-decoration: none;
     color: var(--WHITE);
 
 }
-.label-with-sub{
-    gap: 24px;
-}
+
 .subscribefoot{
     width: 264px;
     height: 40px;
@@ -738,6 +736,7 @@ text-decoration: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--WHITE);
+    gap: 24px;
     
 }
 .subscribefoot::placeholder{
