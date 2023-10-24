@@ -723,6 +723,9 @@ text-decoration: none;
 .label-in-foot{
     display: flex;
 }
+.label-with-sub{
+    gap:24px;
+}
 .subscribe{
     margin-left: auto;
     margin-bottom: 16px;
@@ -735,7 +738,7 @@ text-decoration: none;
 }
 
 .subscribefoot{
-    gap:24px;
+    padding-right: 5px;
     width: 264px;
     height: 40px;
     border: 1px solid var(--WHITE);
@@ -769,6 +772,7 @@ text-decoration: none;
     background-color: var(--IRIS);
     border: none;
     border-radius: 4px;
+    margin-left: 16px;
 
 }
 
