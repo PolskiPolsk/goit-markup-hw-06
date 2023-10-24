@@ -723,9 +723,7 @@ text-decoration: none;
 .label-in-foot{
     display: flex;
 }
-.label-with-sub{
-    gap:24px;
-}
+
 .subscribe{
     margin-left: auto;
     margin-bottom: 16px;
@@ -738,6 +736,8 @@ text-decoration: none;
 }
 
 .subscribefoot{
+    display:flex;
+    gap: 24px;
     padding-right: 5px;
     width: 264px;
     height: 40px;
