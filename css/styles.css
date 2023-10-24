@@ -651,6 +651,11 @@ text-decoration: none;
     letter-spacing: 0.04em;
     color: var(--LIGHT-SLATE);
 }
+.check:checked + .accept-the-terms span {
+    background-color: var(--OCEAN);
+    border:none;
+    fill:var(--CLOUD);
+}
 .statment{
     width:16px;
     height: 16px;
@@ -730,7 +735,7 @@ text-decoration: none;
 }
 
 .subscribefoot{
-    gap: 24px;
+    gap:24px;
     width: 264px;
     height: 40px;
     border: 1px solid var(--WHITE);
