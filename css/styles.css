@@ -600,21 +600,25 @@ text-decoration: none;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4,0,0.2,1);
-
 }
-.seting-forcustomer::after{
+.seting-forcustomer:focus-within{
     border-color: var(--IRIS);
 }
+
 .personal-svg{
     position: absolute;
     left:16px;
     top:50%;
     transform:translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-.perdonal-svg::after{
+.input-setings:focus-within{
     fill:var(--IRIS);
+    
 }
+
+
 .comment-window{
     margin-bottom: 16px;
 }
@@ -633,7 +637,8 @@ text-decoration: none;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
-.textarea-setup::after{
+
+.textarea-setup:focus-within{
     border-color: var(--IRIS);
 }
 .privacy-policy{
@@ -725,6 +730,7 @@ text-decoration: none;
 }
 
 .subscribefoot{
+    gap: 24px;
     width: 264px;
     height: 40px;
     border: 1px solid var(--WHITE);
@@ -736,7 +742,7 @@ text-decoration: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--WHITE);
-    gap: 24px;
+    
     
 }
 .subscribefoot::placeholder{
